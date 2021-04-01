@@ -1,0 +1,69 @@
+html{
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* background: url(img/mainwallpaper.jpg) no-repeat; */
+  background-size: 100%;
+  background-position: bottom;
+  background-color: #f3f3f3;
+  min-height: 100%;
+}
+
+form{
+  padding: 20px;
+  margin-top: 60px;
+  border-radius: 30px;
+}
+
+form button, h5{
+  margin: 20px 0;
+  border-radius: 20px;
+}
+
+input[type=text]:not(.browser-default):focus:not([readonly]),
+input[type=emil]:not(.browser-default):focus:not([readonly]),
+input[type=password]:not(.browser-default):focus:not([readonly]),
+textarea.materialize-textarea:focus:not([readonly]){
+  border-color: #ec407a;
+  box-shadow: none;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+mapcss{
+width: 100%;
+height: 80%;
+z-index: 2;
+
+}
+
+.sr-only {
+  display: none;
+}
+
+.leaflet-container {
+  width: 100wh; 
+  height: 100vh;
+}
+
+.task-summary { 
+  border-radius: 5%;
+}
+
+
+
+.btn-delete { 
+  position: relative;
+  left: 350px;
+}
